@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.23** sobre *GitHub Actions para despliegue*, centrada en automatizar el deploy (por ejemplo, a GitHub Pages) al hacer push a `main` tras pasar CI. [github](https://github.com/peaceiris/actions-gh-pages)
 
-***
-
-```markdown
 # 🚀 Actividad 6.23 – GitHub Actions para deploy
 
 > Ya has usado GitHub Actions para ejecutar checks en PRs.
@@ -257,4 +253,5 @@ En `actividad-6-23-deploy-actions` deben aparecer:
 - 3 pts – Calidad de la reflexión en `reflexion-6-23.md` (comprensión de CI/CD y sus riesgos/beneficios).
 
 **Puntuación máxima: 10 puntos.**
-```
+
+---

@@ -1,10 +1,4 @@
-Aquí tienes la **Actividad 6.3** centrada en `git merge` y resolución de conflictos, como continuación natural de la 6.2 (ramas). Incluye un conflicto intencionado y su resolución manual. [atlassian](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts)
 
-La dejo en formato **Markdown**, lista para usar como `README.md` en una assignment de GitHub Classroom.
-
-***
-
-```markdown
 # ⚔️ Actividad 6.3 – `git merge` y resolución de conflictos
 
 > En la Actividad 6.2 has creado y usado ramas básicas.
@@ -348,4 +342,3 @@ Tu repositorio de la Actividad 6.3 debe incluir al menos:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.13** sobre `git worktree`, centrada en trabajar con múltiples directorios de trabajo para distintas ramas sin tener que estar cambiando de rama ni clonando varias veces. [geeksforgeeks](https://www.geeksforgeeks.org/git/using-git-worktrees-for-multiple-working-directories/)
 
-***
-
-```markdown
 # 🧩 Actividad 6.13 – `git worktree`: varias ramas, varios directorios
 
 > Cuando trabajas en varias ramas a la vez, cambiar de rama y hacer `stash` continuamente puede ser incómodo.
@@ -303,4 +299,3 @@ En el repositorio principal (`actividad-6-13-git-worktree`) debe constar:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

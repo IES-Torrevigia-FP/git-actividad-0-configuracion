@@ -276,4 +276,3 @@ En `actividad-6-17-git-lfs` deben aparecer:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

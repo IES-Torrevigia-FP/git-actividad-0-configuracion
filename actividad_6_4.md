@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.4** centrada en `git rebase`, pensada como siguiente paso tras ramas y merge (6.2 y 6.3). Se centra en *mantener la historia lineal* y en rebases sencillos sobre `main`, sin entrar aún en interactivo avanzado. [freecodecamp](https://www.freecodecamp.org/news/how-to-use-git-rebase/)
 
-***
-
-```markdown
 # 🪜 Actividad 6.4 – Introducción a `git rebase`
 
 > En la Actividad 6.2 aprendiste a trabajar con ramas y en la 6.3 a hacer `merge` y resolver conflictos.
@@ -363,4 +359,3 @@ Tu repositorio de la Actividad 6.4 debe incluir, al menos:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

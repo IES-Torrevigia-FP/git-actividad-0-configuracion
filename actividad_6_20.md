@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.20** sobre *GitHub Pull Requests*, centrada en crear, describir, revisar y actualizar PRs con buenas prácticas. [github](https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/)
 
-***
-
-```markdown
 # 📥 Actividad 6.20 – GitHub Pull Requests: de la rama al merge
 
 > Las Pull Requests (PR) son el corazón de la colaboración en GitHub: permiten proponer cambios, revisarlos y discutirlos antes de fusionarlos.
@@ -241,4 +237,5 @@ En `actividad-6-20-pull-requests` deben aparecer:
 - 3 pts – Calidad de la reflexión en `reflexion-6-20.md` (comprensión del rol de las PR en la colaboración).
 
 **Puntuación máxima: 10 puntos.**
-```
+
+---

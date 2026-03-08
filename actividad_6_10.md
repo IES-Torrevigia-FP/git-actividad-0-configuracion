@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.10** sobre `git log` y `git reflog`, centrada en leer el historial “bonito” y en usar reflog como red de seguridad para recuperar commits o ramas “perdidos”. [riptutorial](https://riptutorial.com/git/example/1317/prettier-log)
 
-***
-
-```markdown
 # 🔍 Actividad 6.10 – `git log` y `git reflog`: leer y recuperar historia
 
 > Has aprendido a crear, modificar y deshacer commits.
@@ -343,4 +339,3 @@ Tu repositorio de la Actividad 6.10 debe incluir:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

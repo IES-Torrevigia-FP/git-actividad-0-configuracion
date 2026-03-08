@@ -229,3 +229,5 @@ Al finalizar la actividad, este repositorio **debe incluir** al menos:
 - ✅ 1 pt – Presentación, orden y claridad de los archivos.
 
 **Puntuación máxima: 10 puntos.**
+
+---

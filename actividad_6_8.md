@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.8** sobre `git reset`, centrada en deshacer cambios locales y entender las modalidades `--soft`, `--mixed` y `--hard`, con enfoque muy práctico. [geeksforgeeks](https://www.geeksforgeeks.org/git/whats-the-difference-between-git-reset-mixed-soft-and-hard/)
 
-***
-
-```markdown
 # 🧨 Actividad 6.8 – `git reset`: deshacer cambios y reescribir historia local
 
 > En actividades anteriores has aprendido a avanzar en el historial (`commit`, `merge`, `rebase`).
@@ -331,4 +327,3 @@ Tu repositorio de la Actividad 6.8 debe incluir:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

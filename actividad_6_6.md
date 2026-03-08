@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.6** centrada en `git cherry-pick`, enfocada a seleccionar commits concretos de una rama y aplicarlos en otra sin hacer merge completo. [atlassian](https://www.atlassian.com/git/tutorials/cherry-pick)
 
-***
-
-```markdown
 # 🍒 Actividad 6.6 – `git cherry-pick`: seleccionar commits concretos
 
 > En las actividades anteriores has trabajado con ramas, merge y rebase.
@@ -308,4 +304,3 @@ Tu repositorio de la Actividad 6.6 debe incluir:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

@@ -1,10 +1,4 @@
-Aquí tienes la **Actividad 6.15** sobre `git subrepo`, pensada como continuación práctica de submodule/subtree: integrar repos externos “embebidos” y sincronizarlos con comandos de `git subrepo`. [blog.s-schoener](https://blog.s-schoener.com/2019-04-20-git-subrepo/)
 
-> Nota: esta actividad asume que tienes la herramienta **`git-subrepo`** instalada y disponible como comando `git subrepo`. [github](https://github.com/NiklasRosenstein/git-subrepo)
-
-***
-
-```markdown
 # 🧬 Actividad 6.15 – `git subrepo`: otra forma de integrar repos externos
 
 > En la Actividad 6.14 has trabajado con `git submodule`.
@@ -366,4 +360,3 @@ En `actividad-6-15-subrepo` debe constar:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

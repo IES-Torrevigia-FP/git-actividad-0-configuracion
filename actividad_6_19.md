@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.19** sobre Git en equipos colaborativos, centrada en flujo de ramas, buenas prácticas, pull requests y resolución de conflictos en equipo. [gitkraken](https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy)
 
-***
-
-```markdown
 # 🤝 Actividad 6.19 – Git en equipos colaborativos
 
 > Hasta ahora has trabajado sobre todo en repos individuales.
@@ -243,4 +239,5 @@ En `actividad-6-19-git-equipo` deben aparecer:
 - 3 pts – Calidad de la reflexión en `reflexion-6-19.md` (comprensión madura de Git en equipo).
 
 **Puntuación máxima: 10 puntos.**
-```
+
+---

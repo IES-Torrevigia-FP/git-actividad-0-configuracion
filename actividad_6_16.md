@@ -1,10 +1,4 @@
-Actividad 6.16 puede servir como “cierre” del módulo 6: un repaso aplicado donde el alumnado combina varias técnicas avanzadas en un mini‑proyecto y explora alguna funcionalidad menos común (hooks, rerere, atributos, notas). [atlassian](https://www.atlassian.com/git/tutorials/advanced-overview)
 
-Te propongo una actividad tipo **laboratorio integrador** en formato `README.md`, con bloques optativos.
-
-***
-
-```markdown
 # 🧠 Actividad 6.16 – Laboratorio de Git avanzado
 
 > En el módulo 6 has visto ramas, rebase, cherry-pick, stash, reset, revert, log/reflog, blame, bisect, worktree, submodule y subrepo.
@@ -213,4 +207,3 @@ En `actividad-6-16-git-avanzado` deben aparecer:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

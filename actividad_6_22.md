@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.22** sobre *GitHub Actions en Pull Requests*, centrada en configurar workflows que se ejecutan automáticamente al abrir/actualizar PRs para correr tests y checks de calidad. [docs.github](https://docs.github.com/actions/using-workflows/events-that-trigger-workflows)
 
-***
-
-```markdown
 # ⚙️ Actividad 6.22 – GitHub Actions en Pull Requests
 
 > Has visto cómo crear y revisar Pull Requests.
@@ -219,4 +215,3 @@ En `actividad-6-22-gh-actions-pr` deben aparecer:
 - 3 pts – Calidad de la reflexión en `reflexion-6-22.md` (comprensión del rol de la CI en el proceso de revisión).
 
 **Puntuación máxima: 10 puntos.**
-```

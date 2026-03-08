@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.7** centrada en `git stash`, enfocada a guardar trabajo en curso temporalmente, listar stashes, recuperarlos con `pop`/`apply` y entender cuándo usarlo. [atlassian](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
 
-***
-
-```markdown
 # 📦 Actividad 6.7 – `git stash`: guardar cambios temporales
 
 > A veces necesitas cambiar de tarea o de rama sin estar listo para hacer commit.
@@ -344,4 +340,3 @@ Tu repositorio de la Actividad 6.7 debe incluir:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

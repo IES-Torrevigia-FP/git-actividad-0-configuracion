@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.14** sobre `git submodule`, centrada en añadir, inicializar/actualizar y trabajar con submódulos como repositorios dentro de otro repositorio. [atlassian](https://www.atlassian.com/git/tutorials/git-submodule)
 
-***
-
-```markdown
 # 🧩 Actividad 6.14 – `git submodule`: repos dentro de repos
 
 > Algunos proyectos necesitan reutilizar código de otros repositorios (librerías, plantillas, módulos comunes).
@@ -367,4 +363,3 @@ En el **repositorio principal** `actividad-6-14-submodule` (no en el clon) debe 
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

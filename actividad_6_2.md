@@ -1,10 +1,3 @@
-Aquí tienes la **Actividad 6.2** centrada en ramas y `git branch`, pensada como continuación directa de la 6.1 (y habiendo hecho la 6.0). Se centra en crear ramas, cambiar entre ellas y entender la idea de “línea de tiempo alternativa”. [git-scm](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-
-La dejo en formato **Markdown**, lista para usar como `README.md` en una nueva assignment de GitHub Classroom.
-
-***
-
-```markdown
 # 🌿 Actividad 6.2 – Introducción a ramas con `git branch`
 
 > En la Actividad 6.1 has practicado el flujo básico de Git (working directory → staging → commits).
@@ -234,4 +227,3 @@ Al finalizar, tu repositorio de la Actividad 6.2 debe incluir al menos:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

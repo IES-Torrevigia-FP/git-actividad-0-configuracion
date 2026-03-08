@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.18** sobre Git hooks, centrada en crear y probar hooks locales (pre-commit, commit-msg, pre-push) y en dejarlos preparados para compartirlos con un equipo mediante `core.hooksPath`. [atlassian](https://www.atlassian.com/git/tutorials/git-hooks)
 
-***
-
-```markdown
 # 🪝 Actividad 6.18 – Git hooks: automatizar tareas en el flujo de trabajo
 
 > Git permite enganchar scripts en distintos puntos del flujo (antes de un commit, antes de un push, después de un merge…).
@@ -308,4 +304,3 @@ En `actividad-6-18-git-hooks` deben aparecer:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

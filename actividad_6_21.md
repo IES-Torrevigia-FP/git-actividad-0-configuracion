@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.21** sobre *revisión de código en Pull Requests*, centrada en el rol de la persona revisora: cómo revisar, qué mirar y cómo dar feedback útil. [github](https://github.com/mawrkus/pull-request-review-guide)
 
-***
-
-```markdown
 # 🔍 Actividad 6.21 – Revisión de código en Pull Requests
 
 > En la actividad 6.20 has practicado crear PRs.
@@ -186,4 +182,5 @@ En el repositorio donde documentes la actividad (puede ser `actividad-6-20-pull-
 - 3 pts – Profundidad de la reflexión en `reflexion-6-21.md` (visión madura de la revisión como colaboración, no solo control).
 
 **Puntuación máxima: 10 puntos.**
-```
+
+---

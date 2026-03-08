@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.11** sobre `git blame`, centrada en entender quién cambió qué y cuándo, y en usarla de forma constructiva para depurar y aprender del historial. [atlassian](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-blame)
 
-***
-
-```markdown
 # 🕵️ Actividad 6.11 – `git blame`: quién tocó cada línea
 
 > A estas alturas ya sabes crear, deshacer y explorar commits.
@@ -261,4 +257,3 @@ Tu repositorio de la Actividad 6.11 debe incluir:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

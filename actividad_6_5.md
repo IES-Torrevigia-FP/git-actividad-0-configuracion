@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.5** centrada en `git rebase -i` (rebase interactivo), pensada como ejercicio de limpieza de historial: reordenar, corregir mensajes y hacer squash de commits. [thoughtbot](https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history)
 
-***
-
-```markdown
 # 🧹 Actividad 6.5 – `git rebase -i`: limpiar y organizar el historial
 
 > En la Actividad 6.4 aprendiste a usar `git rebase` para actualizar una rama sobre otra.
@@ -325,4 +321,3 @@ Tu repositorio de la Actividad 6.5 debe incluir:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

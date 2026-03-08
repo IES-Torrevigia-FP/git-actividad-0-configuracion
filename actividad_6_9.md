@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.9** sobre `git revert`, como contrapunto “seguro” a `git reset`, centrada en deshacer commits manteniendo el historial. [atlassian](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert)
 
-***
-
-```markdown
 # 🔁 Actividad 6.9 – `git revert`: deshacer cambios de forma segura
 
 > En la Actividad 6.8 has visto cómo `git reset` reescribe historia local.
@@ -307,4 +303,3 @@ Tu repositorio de la Actividad 6.9 debe incluir:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```

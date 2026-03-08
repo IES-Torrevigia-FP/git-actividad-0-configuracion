@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.24** sobre *deploy a servidores con GitHub Actions*, centrada en desplegar a un servidor remoto (VPS) vía SSH/rsync desde un workflow. [blog.ando](https://blog.ando.ai/posts/github-actions-vps-deployment/)
 
-***
-
-```markdown
 # 🌐 Actividad 6.24 – Deploy a servidores con GitHub Actions (VPS/SSH)
 
 > Ya sabes desplegar a GitHub Pages con Actions.
@@ -249,4 +245,5 @@ En el repo (por ejemplo `actividad-6-24-deploy-servidor`) deben aparecer:
 - 3 pts – Calidad de la reflexión en `reflexion-6-24.md` (comprensión de estrategias y riesgos de deploy a servidores).
 
 **Puntuación máxima: 10 puntos.**
-```
+
+---

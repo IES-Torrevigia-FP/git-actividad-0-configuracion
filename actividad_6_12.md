@@ -1,8 +1,4 @@
-Aquí tienes la **Actividad 6.12** sobre `git bisect`, centrada en usar búsqueda binaria sobre el historial para encontrar el commit que introdujo un bug. [dev](https://dev.to/alvesjessica/using-git-bisect-to-find-the-faulty-commit-25gf)
 
-***
-
-```markdown
 # 🎯 Actividad 6.12 – `git bisect`: encontrar el commit que rompió el código
 
 > Sabes usar `log`, `revert`, `reset` y `blame` para inspeccionar y deshacer cambios.
@@ -324,4 +320,3 @@ Tu repositorio de la Actividad 6.12 debe incluir:
 **Puntuación máxima: 10 puntos.**
 
 ---
-```
