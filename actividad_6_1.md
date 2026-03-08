@@ -7,7 +7,7 @@ La tienes en formato **Markdown**, lista para usar como `README.md` de una nueva
 ```markdown
 # 🧭 Actividad 6.1 – Primer flujo de trabajo con Git
 
-> En la Actividad 6.0 dejaste Git listo para usarse (usuario, rama `main`, alias, etc.).  
+> En la Actividad 6.0 dejaste Git listo para usarse (usuario, rama `main`, alias, etc.).
 > En esta actividad vas a **entender y practicar el flujo básico de Git**. Practicaremos como trabajar, preparar cambios y registrarlos en el historial.
 
 ---
@@ -18,7 +18,7 @@ Al finalizar esta actividad serás capaz de:
 
 - Distinguir entre **directorio de trabajo**, **zona de staging** y **historial de commits**.
 - Usar `git status`, `git add`, `git commit` y `git log` en un flujo básico.
-- Crear commits pequeños y con mensajes claros.  
+- Crear commits pequeños y con mensajes claros.
 - Entender qué significa “cambios sin seguir”, “cambios preparados” y “cambios confirmados”.
 
 ---
@@ -27,13 +27,13 @@ Al finalizar esta actividad serás capaz de:
 
 Piensa en Git como tres “espacios” donde pueden estar tus cambios:
 
-- **Directorio de trabajo (working directory)**: donde editas los archivos normalmente en tu sistema de archivos.  
+- **Directorio de trabajo (working directory)**: donde editas los archivos normalmente en tu sistema de archivos.
 - **Zona de staging (staging area / index)**: zona intermedia donde seleccionas qué cambios quieres incluir en el próximo commit.
 - **Historial de commits (repository / commit history)**: registro permanente de cambios confirmados.
 
 El flujo habitual es:
 
-1. Editar archivos en el directorio de trabajo.  
+1. Editar archivos en el directorio de trabajo.
 2. Añadir los cambios que quieres preparar con `git add` (pasan a staging).
 3. Confirmar esos cambios con `git commit` (pasan al historial).
 
@@ -62,7 +62,7 @@ El flujo habitual es:
 
 - Haz una captura de pantalla de la terminal donde se vea:
   - El `git init`.
-  - La rama `main` mostrada por `git branch`.  
+  - La rama `main` mostrada por `git branch`.
 - Guarda la captura con el nombre `cp1-init-rama-main.png` (o formato similar).
 
 ---
@@ -90,7 +90,7 @@ Debería aparecer `notas-git.md` como archivo **untracked** (sin seguimiento).
 
 ### Checkpoint 2 – Evidencia
 
-- Crea un archivo de texto en el repositorio llamado `cp2-estado-inicial.txt`.  
+- Crea un archivo de texto en el repositorio llamado `cp2-estado-inicial.txt`.
 - Copia en él la salida de `git status` y añade una breve frase explicando qué significa que un archivo esté “untracked”.
 
 ---
@@ -112,9 +112,9 @@ Ahora `notas-git.md` debería aparecer como “changes to be committed” (prepa
 
 ### Checkpoint 3 – Evidencia
 
-- Actualiza `cp2-estado-inicial.txt` (o crea `cp3-staging.txt`) pegando la nueva salida de `git status`.  
+- Actualiza `cp2-estado-inicial.txt` (o crea `cp3-staging.txt`) pegando la nueva salida de `git status`.
 - Debajo, responde a estas preguntas:
-  1. ¿Qué diferencia hay entre estar “untracked” y estar en “staging”?  
+  1. ¿Qué diferencia hay entre estar “untracked” y estar en “staging”?
   2. ¿Qué comando has utilizado para pasar el archivo a la zona de staging?
 
 ---
@@ -142,7 +142,7 @@ Ahora `notas-git.md` debería aparecer como “changes to be committed” (prepa
 ### Checkpoint 4 – Evidencia
 
 - Crea un archivo `cp4-primer-commit.txt` con:
-  - La salida de `git log --oneline`.  
+  - La salida de `git log --oneline`.
   - Una breve explicación de por qué es importante escribir mensajes de commit claros.
 
 ---
@@ -180,9 +180,9 @@ Ahora `notas-git.md` debería aparecer como “changes to be committed” (prepa
 
 ### Checkpoint 5 – Evidencia
 
-- Actualiza `cp4-primer-commit.txt` (o crea `cp5-historial.txt`) con el nuevo `git log --oneline`.  
+- Actualiza `cp4-primer-commit.txt` (o crea `cp5-historial.txt`) con el nuevo `git log --oneline`.
 - Contesta:
-  1. ¿Cuántos commits tienes ahora en el repositorio?  
+  1. ¿Cuántos commits tienes ahora en el repositorio?
   2. ¿Qué diferencia hay entre el primer y el segundo commit?
 
 ---
@@ -192,10 +192,10 @@ Ahora `notas-git.md` debería aparecer como “changes to be committed” (prepa
 Crea un archivo `reflexion-6-1.md` con respuestas breves (2–4 líneas por punto):
 
 1. Explica con tus palabras la diferencia entre:
-   - Directorio de trabajo.  
-   - Zona de staging.  
+   - Directorio de trabajo.
+   - Zona de staging.
    - Historial de commits.
-2. Describe un error típico que podría cometer alguien que empieza con Git en este flujo (por ejemplo, olvidarse de `git add`) y cómo lo evitarías.  
+2. Describe un error típico que podría cometer alguien que empieza con Git en este flujo (por ejemplo, olvidarse de `git add`) y cómo lo evitarías.
 3. ¿Qué ventaja tiene poder decidir qué cambios entran en cada commit (gracias a la zona de staging)?
 
 ---
@@ -204,18 +204,18 @@ Crea un archivo `reflexion-6-1.md` con respuestas breves (2–4 líneas por punt
 
 Al terminar, tu repositorio de la actividad 6.1 debe incluir:
 
-- `notas-git.md`  
-- `cp2-estado-inicial.txt`  
-- `cp3-staging.txt` (si lo has separado)  
-- `cp4-primer-commit.txt` o `cp5-historial.txt` (según cómo lo organices)  
-- `reflexion-6-1.md`  
+- `notas-git.md`
+- `cp2-estado-inicial.txt`
+- `cp3-staging.txt` (si lo has separado)
+- `cp4-primer-commit.txt` o `cp5-historial.txt` (según cómo lo organices)
+- `reflexion-6-1.md`
 
 ---
 
 ## 🏁 Evaluación sugerida
 
-- 4 pts – Flujo técnico correcto (uso de `git add`, `git commit`, `git status`, `git log`).  
-- 3 pts – Evidencias de los distintos estados (`untracked`, staging, commits) en los archivos de checkpoints.  
+- 4 pts – Flujo técnico correcto (uso de `git add`, `git commit`, `git status`, `git log`).
+- 3 pts – Evidencias de los distintos estados (`untracked`, staging, commits) en los archivos de checkpoints.
 - 3 pts – Calidad de la reflexión en `reflexion-6-1.md`.
 
 **Puntuación máxima: 10 puntos.**

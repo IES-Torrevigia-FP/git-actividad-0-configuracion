@@ -5,7 +5,7 @@ Aquí tienes la **Actividad 6.4** centrada en `git rebase`, pensada como siguien
 ```markdown
 # 🪜 Actividad 6.4 – Introducción a `git rebase`
 
-> En la Actividad 6.2 aprendiste a trabajar con ramas y en la 6.3 a hacer `merge` y resolver conflictos.  
+> En la Actividad 6.2 aprendiste a trabajar con ramas y en la 6.3 a hacer `merge` y resolver conflictos.
 > Ahora vas a aprender a **usar `git rebase` para “mover” una rama sobre otra y obtener un historial más lineal y limpio**.
 
 ---
@@ -93,8 +93,8 @@ En resumen:
 ### Checkpoint 1 – Evidencia
 
 - Crea `cp1-estado-inicial-rebase.txt` con:
-  - Salida de `git branch`.  
-  - Salida de `git log --oneline --all` (para ver `main` y `feature-notas`).  
+  - Salida de `git branch`.
+  - Salida de `git log --oneline --all` (para ver `main` y `feature-notas`).
 
 ---
 
@@ -126,7 +126,7 @@ En resumen:
 
 En este punto:
 
-- `main` tiene commits adicionales que `feature-notas` aún no ha visto.  
+- `main` tiene commits adicionales que `feature-notas` aún no ha visto.
 - `feature-notas` tiene sus propios commits (el archivo `notas.md`).
 
 ### Checkpoint 2 – Evidencia
@@ -138,7 +138,7 @@ En este punto:
   ```
 
 - Añade una breve descripción de la situación:
-  - ¿Qué commits exclusivos tiene `main`?  
+  - ¿Qué commits exclusivos tiene `main`?
   - ¿Qué commits exclusivos tiene `feature-notas`?
 
 ---
@@ -161,7 +161,7 @@ En este punto:
 
 Git va a:
 
-- Tomar los commits de `feature-notas`.  
+- Tomar los commits de `feature-notas`.
 - Aplicarlos de nuevo encima del último commit de `main`.
 
 3. Tras el rebase, revisa el historial:
@@ -175,8 +175,8 @@ Deberías ver un historial **lineal**, donde los commits de `main` van primero y
 ### Checkpoint 3 – Evidencia
 
 - Crea `cp3-despues-rebase.txt` con:
-  - Salida de `git log --oneline --all`.  
-  - Una explicación (3–4 líneas) de qué ha cambiado en el historial tras el rebase (no el contenido de los archivos, sino la “historia”).  
+  - Salida de `git log --oneline --all`.
+  - Una explicación (3–4 líneas) de qué ha cambiado en el historial tras el rebase (no el contenido de los archivos, sino la “historia”).
 
 ---
 
@@ -270,8 +270,8 @@ Comprobarás que el rebase está en curso y hay un archivo en conflicto.
 ### Checkpoint 4 – Evidencia
 
 - Crea `cp4-conflicto-rebase.txt` con:
-  - La salida de `git status` durante el conflicto.  
-  - El fragmento de `notas.md` donde se ven los marcadores de conflicto.  
+  - La salida de `git status` durante el conflicto.
+  - El fragmento de `notas.md` donde se ven los marcadores de conflicto.
 
 ---
 
@@ -322,9 +322,9 @@ Esto devuelve la rama al estado anterior al `git rebase`.
 ### Checkpoint 5 – Evidencia
 
 - Crea `cp5-resolucion-rebase.txt` con:
-  - Salida de `git log --oneline --all` después de completar el rebase.  
+  - Salida de `git log --oneline --all` después de completar el rebase.
   - Una explicación de:
-    - Qué has hecho para resolver el conflicto.  
+    - Qué has hecho para resolver el conflicto.
     - Cuándo usarías `git rebase --abort`.
 
 ---
@@ -334,7 +334,7 @@ Esto devuelve la rama al estado anterior al `git rebase`.
 Crea `reflexion-6-4.md` y responde:
 
 1. Explica con tus palabras la diferencia entre `git merge` y `git rebase` en cuanto al **historial** que generan.
-2. Indica una situación en la que preferirías usar `rebase` y otra en la que preferirías usar `merge`. 
+2. Indica una situación en la que preferirías usar `rebase` y otra en la que preferirías usar `merge`.
 3. ¿Por qué se recomienda **no usar rebase** sobre ramas que ya han sido compartidas con otras personas (push al remoto)?
 
 ---
@@ -343,21 +343,21 @@ Crea `reflexion-6-4.md` y responde:
 
 Tu repositorio de la Actividad 6.4 debe incluir, al menos:
 
-- `changelog.md`  
-- `notas.md` (versión final tras el rebase)  
-- `cp1-estado-inicial-rebase.txt`  
-- `cp2-divergencia.txt`  
-- `cp3-despues-rebase.txt`  
-- `cp4-conflicto-rebase.txt`  
-- `cp5-resolucion-rebase.txt`  
-- `reflexion-6-4.md`  
+- `changelog.md`
+- `notas.md` (versión final tras el rebase)
+- `cp1-estado-inicial-rebase.txt`
+- `cp2-divergencia.txt`
+- `cp3-despues-rebase.txt`
+- `cp4-conflicto-rebase.txt`
+- `cp5-resolucion-rebase.txt`
+- `reflexion-6-4.md`
 
 ---
 
 ## 🏁 Evaluación sugerida
 
 - 4 pts – Uso correcto de `git rebase` (sin conflicto y con conflicto).
-- 3 pts – Evidencias claras en los checkpoints (estado, conflicto, resolución, historial).  
+- 3 pts – Evidencias claras en los checkpoints (estado, conflicto, resolución, historial).
 - 3 pts – Calidad de la reflexión en `reflexion-6-4.md` (comprensión de cuándo y por qué usar rebase, no solo los comandos).
 
 **Puntuación máxima: 10 puntos.**

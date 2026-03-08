@@ -7,7 +7,7 @@ La dejo en formato **Markdown**, lista para usar como `README.md` en una assignm
 ```markdown
 # ⚔️ Actividad 6.3 – `git merge` y resolución de conflictos
 
-> En la Actividad 6.2 has creado y usado ramas básicas.  
+> En la Actividad 6.2 has creado y usado ramas básicas.
 > Ahora vas a aprender a **unir ramas (merge)** y a **resolver conflictos** cuando Git no puede decidir automáticamente qué cambios conservar.
 
 ---
@@ -25,8 +25,8 @@ Al finalizar esta actividad serás capaz de:
 
 ## 🧠 Conceptos clave: ¿Qué es un merge? ¿Qué es un conflicto?
 
-- `git merge` combina el historial de otra rama en la rama actual.  
-- Git intenta **fusionar automáticamente** los cambios.  
+- `git merge` combina el historial de otra rama en la rama actual.
+- Git intenta **fusionar automáticamente** los cambios.
 - Si dos ramas han modificado **las mismas líneas** o una ha borrado un archivo que la otra ha editado, Git no sabe qué elegir y se produce un **conflicto de merge**.
 
 En ese caso:
@@ -90,8 +90,8 @@ versión de la rama que se está mergeando
 ### Checkpoint 1 – Evidencia
 
 - Crea `cp1-estado-inicial.txt` con:
-  - Salida de `git branch`.  
-  - Salida de `git log --oneline`.  
+  - Salida de `git branch`.
+  - Salida de `git log --oneline`.
 
 ---
 
@@ -132,14 +132,14 @@ versión de la rama que se está mergeando
    git merge capitulo-1
    ```
 
-3. Comprueba el archivo `historia.txt`:  
-   Debería incluir las 4 líneas (merge automático, sin conflicto). [web:56]
+3. Comprueba el archivo `historia.txt`:
+   Debería incluir las 4 líneas (merge automático, sin conflicto).
 
 ### Checkpoint 2 – Evidencia
 
 - Crea `cp2-merge-limpio.txt` con:
-  - Comando que has usado para el merge.  
-  - Salida de `git log --oneline` tras el merge.  
+  - Comando que has usado para el merge.
+  - Salida de `git log --oneline` tras el merge.
   - Una frase explicando qué es un **merge sin conflicto**.
 
 ---
@@ -234,8 +234,8 @@ Verás que el archivo aparece como “both modified” y el merge está en curso
 ### Checkpoint 3 – Evidencia
 
 - Crea `cp3-conflicto.txt` con:
-  - La salida de `git status` durante el conflicto.  
-  - Copia del fragmento de `historia.txt` donde se vean los marcadores (`<<<<<<<`, `=======`, `>>>>>>>`).  
+  - La salida de `git status` durante el conflicto.
+  - Copia del fragmento de `historia.txt` donde se vean los marcadores (`<<<<<<<`, `=======`, `>>>>>>>`).
 
 ---
 
@@ -252,8 +252,8 @@ Verás que el archivo aparece como “both modified” y el merge está en curso
    Línea 4: En la rama capitulo-1 añadimos un nuevo capítulo.
    ```
 
-La clave es:  
-- Quitar `<<<<<<< HEAD`, `=======`, `>>>>>>> version-alternativa`.  
+La clave es:
+- Quitar `<<<<<<< HEAD`, `=======`, `>>>>>>> version-alternativa`.
 - Dejar solo el texto definitivo que quieras conservar.
 
 2. Marca el conflicto como resuelto añadiendo el archivo a staging:
@@ -278,8 +278,8 @@ La clave es:
 ### Checkpoint 4 – Evidencia
 
 - Crea `cp4-resolucion-conflicto.txt` con:
-  - La salida de `git log --oneline` después de resolver el conflicto.  
-  - Una explicación (3–4 líneas) de qué pasos has seguido para resolver el conflicto.  
+  - La salida de `git log --oneline` después de resolver el conflicto.
+  - Una explicación (3–4 líneas) de qué pasos has seguido para resolver el conflicto.
 
 ---
 
@@ -289,7 +289,7 @@ La clave es:
 
 ### Reto 6.1 – Probar `git merge --abort`
 
-1. Repite una situación de conflicto rápida (no hace falta que sea igual que la anterior).  
+1. Repite una situación de conflicto rápida (no hace falta que sea igual que la anterior).
 2. Justo después de que Git muestre el conflicto, ejecuta:
 
    ```bash
@@ -307,8 +307,8 @@ Deberías volver al estado anterior al intento de merge.
 ### Checkpoint 5 – Evidencia (opcional)
 
 - Crea `cp5-abortar-merge.txt` con:
-  - El comando `git merge --abort` usado.  
-  - Una frase que explique en qué situaciones te puede salvar este comando.  
+  - El comando `git merge --abort` usado.
+  - Una frase que explique en qué situaciones te puede salvar este comando.
 
 ---
 
@@ -318,8 +318,8 @@ Crea un archivo `reflexion-6-3.md` y responde:
 
 1. Define con tus palabras qué es un **conflicto de merge** y cuándo suele ocurrir.
 2. Explica el significado de cada marcador en un conflicto:
-   - `<<<<<<< HEAD`  
-   - `=======`  
+   - `<<<<<<< HEAD`
+   - `=======`
    - `>>>>>>> nombre-de-la-rama`
 3. ¿Qué buenas prácticas pueden ayudar a reducir conflictos en un equipo (tamaño de los commits, frecuencia de merge, comunicación, etc.)?
 
@@ -329,20 +329,20 @@ Crea un archivo `reflexion-6-3.md` y responde:
 
 Tu repositorio de la Actividad 6.3 debe incluir al menos:
 
-- `historia.txt` (versión final tras el conflicto).  
-- `cp1-estado-inicial.txt`  
-- `cp2-merge-limpio.txt`  
-- `cp3-conflicto.txt`  
-- `cp4-resolucion-conflicto.txt`  
-- `cp5-abortar-merge.txt` (si realizas la parte opcional)  
-- `reflexion-6-3.md`  
+- `historia.txt` (versión final tras el conflicto).
+- `cp1-estado-inicial.txt`
+- `cp2-merge-limpio.txt`
+- `cp3-conflicto.txt`
+- `cp4-resolucion-conflicto.txt`
+- `cp5-abortar-merge.txt` (si realizas la parte opcional)
+- `reflexion-6-3.md`
 
 ---
 
 ## 🏁 Evaluación sugerida
 
 - 4 pts – Uso correcto de `git merge` y comprensión de cuándo se produce un conflicto.
-- 3 pts – Evidencias completas y claras en los checkpoints (estado, conflicto, resolución).  
+- 3 pts – Evidencias completas y claras en los checkpoints (estado, conflicto, resolución).
 - 3 pts – Calidad de la reflexión en `reflexion-6-3.md` (entender el porqué, no solo el cómo).
 
 **Puntuación máxima: 10 puntos.**

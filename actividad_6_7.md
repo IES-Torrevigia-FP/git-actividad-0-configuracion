@@ -5,7 +5,7 @@ Aquí tienes la **Actividad 6.7** centrada en `git stash`, enfocada a guardar tr
 ```markdown
 # 📦 Actividad 6.7 – `git stash`: guardar cambios temporales
 
-> A veces necesitas cambiar de tarea o de rama sin estar listo para hacer commit.  
+> A veces necesitas cambiar de tarea o de rama sin estar listo para hacer commit.
 > En esta actividad aprenderás a usar **`git stash` para guardar cambios temporalmente**, volver a un árbol limpio y recuperarlos más tarde.
 
 ---
@@ -25,8 +25,8 @@ Al finalizar esta actividad serás capaz de:
 
 - `git stash` guarda un **snapshot de tus cambios sin commitear** (staged y unstaged) en un área especial llamada *stash*, y devuelve tu directorio de trabajo a un estado limpio.
 - Es útil cuando necesitas:
-  - Cambiar de rama para arreglar algo rápido.  
-  - Actualizar desde remoto sin mezclar tu trabajo a medias.  
+  - Cambiar de rama para arreglar algo rápido.
+  - Actualizar desde remoto sin mezclar tu trabajo a medias.
   - Evitar commits “basura” tipo `wip`.
 - Comandos clave:
   - `git stash` / `git stash push -m "mensaje"` – guarda cambios.
@@ -84,8 +84,8 @@ Deberías ver cambios sin commitear en `tarea.txt`.
 
 ### Checkpoint 1 – Evidencia
 
-- Crea `cp1-estado-inicial.txt` con la salida de `git status`.  
-- Añade una frase explicando por qué **no** quieres hacer todavía commit de estos cambios (por ejemplo, están incompletos).  
+- Crea `cp1-estado-inicial.txt` con la salida de `git status`.
+- Añade una frase explicando por qué **no** quieres hacer todavía commit de estos cambios (por ejemplo, están incompletos).
 
 ---
 
@@ -149,9 +149,9 @@ Imagina que te avisan de un bug urgente en otra rama, pero no quieres perder est
 ### Checkpoint 2 – Evidencia
 
 - Crea `cp2-stash-list.txt` con:
-  - Salida de `git stash list`.  
-  - Salida de `git log --oneline --all`.  
-  - Una frase explicando qué ha pasado con tus cambios de login mientras hacías el hotfix.  
+  - Salida de `git stash list`.
+  - Salida de `git log --oneline --all`.
+  - Una frase explicando qué ha pasado con tus cambios de login mientras hacías el hotfix.
 
 ---
 
@@ -200,12 +200,12 @@ Imagina que te avisan de un bug urgente en otra rama, pero no quieres perder est
 
    Debería estar vacío (o tener menos entradas).
 
-> Nota: si tras el `apply` ya no había stash, puedes rehacer el escenario: crea nuevos cambios, haz `git stash push -m "..."` y luego `git stash pop`.  
+> Nota: si tras el `apply` ya no había stash, puedes rehacer el escenario: crea nuevos cambios, haz `git stash push -m "..."` y luego `git stash pop`.
 
 ### Checkpoint 3 – Evidencia
 
 - Crea `cp3-apply-vs-pop.txt` con:
-  - Salida de `git stash list` antes y después de `apply` y/o `pop`.  
+  - Salida de `git stash list` antes y después de `apply` y/o `pop`.
   - Una explicación clara de la diferencia entre `git stash apply` y `git stash pop`.
 
 ---
@@ -214,7 +214,7 @@ Imagina que te avisan de un bug urgente en otra rama, pero no quieres perder est
 
 ### Reto 4.1 – Crear múltiples stashes
 
-1. Asegúrate de tener un árbol limpio (haz commit o descarta cambios si hace falta).  
+1. Asegúrate de tener un árbol limpio (haz commit o descarta cambios si hace falta).
 
 2. Cambia `tarea.txt`:
 
@@ -262,8 +262,8 @@ Imagina que te avisan de un bug urgente en otra rama, pero no quieres perder est
 ### Checkpoint 4 – Evidencia
 
 - Crea `cp4-multiples-stash.txt` con:
-  - Salida de `git stash list` mostrando varios stashes con mensajes.  
-  - El comando que has usado para aplicar un stash específico.  
+  - Salida de `git stash list` mostrando varios stashes con mensajes.
+  - El comando que has usado para aplicar un stash específico.
   - Una breve explicación de por qué es útil poner **mensajes descriptivos** a los stashes.
 
 ---
@@ -306,7 +306,7 @@ Imagina que te avisan de un bug urgente en otra rama, pero no quieres perder est
 ### Checkpoint 5 – Evidencia (opcional)
 
 - Crea `cp5-untracked.txt` con:
-  - Comandos usados (`git stash -u`, `git stash pop`).  
+  - Comandos usados (`git stash -u`, `git stash pop`).
   - Una explicación de qué diferencia hay entre `git stash` normal y con `-u`.
 
 ---
@@ -325,20 +325,20 @@ Crea `reflexion-6-7.md` y responde:
 
 Tu repositorio de la Actividad 6.7 debe incluir:
 
-- `tarea.txt` (versión final).  
-- `cp1-estado-inicial.txt`  
-- `cp2-stash-list.txt`  
-- `cp3-apply-vs-pop.txt`  
-- `cp4-multiples-stash.txt`  
-- `cp5-untracked.txt` (si realizas la parte opcional)  
-- `reflexion-6-7.md`  
+- `tarea.txt` (versión final).
+- `cp1-estado-inicial.txt`
+- `cp2-stash-list.txt`
+- `cp3-apply-vs-pop.txt`
+- `cp4-multiples-stash.txt`
+- `cp5-untracked.txt` (si realizas la parte opcional)
+- `reflexion-6-7.md`
 
 ---
 
 ## 🏁 Evaluación sugerida
 
 - 4 pts – Uso correcto de `git stash`, `stash list`, `apply`, `pop`, `drop` (y `-u` si se hace la parte opcional).
-- 3 pts – Evidencias claras en los archivos de checkpoints.  
+- 3 pts – Evidencias claras en los archivos de checkpoints.
 - 3 pts – Calidad de la reflexión en `reflexion-6-7.md` (comprensión de cuándo y por qué usar stash, y sus riesgos).
 
 **Puntuación máxima: 10 puntos.**

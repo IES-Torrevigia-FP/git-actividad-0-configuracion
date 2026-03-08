@@ -7,7 +7,7 @@ La dejo en formato **Markdown**, lista para usar como `README.md` en una nueva a
 ```markdown
 # 🌿 Actividad 6.2 – Introducción a ramas con `git branch`
 
-> En la Actividad 6.1 has practicado el flujo básico de Git (working directory → staging → commits).  
+> En la Actividad 6.1 has practicado el flujo básico de Git (working directory → staging → commits).
 > Ahora vas a aprender a trabajar con **ramas**, que son líneas de tiempo alternativas de tu proyecto.
 
 ---
@@ -68,8 +68,8 @@ Deberías ver solo la rama `main`.
 ### Checkpoint 1 – Evidencia
 
 - Crea el archivo `cp1-ramas-iniciales.txt` y pega la salida de:
-  - `git branch`  
-  - `git log --oneline`  
+  - `git branch`
+  - `git log --oneline`
 
 ---
 
@@ -119,8 +119,8 @@ La rama actual debería aparecer marcada con un `*`.
 ### Checkpoint 2 – Evidencia
 
 - Crea el archivo `cp2-feature-branch.txt` con:
-  - La salida de `git branch`.  
-  - La salida de `git log --oneline`.  
+  - La salida de `git branch`.
+  - La salida de `git log --oneline`.
 - Añade debajo una breve explicación (2–3 líneas) de qué has hecho en la rama `feature-mensaje-bienvenida`.
 
 ---
@@ -135,7 +135,7 @@ La rama actual debería aparecer marcada con un `*`.
    git checkout main
    ```
 
-2. Abre el archivo `app.txt` y observa su contenido.  
+2. Abre el archivo `app.txt` y observa su contenido.
    Debería **NO** incluir el mensaje de bienvenida, porque ese cambio solo se hizo en la rama `feature-mensaje-bienvenida`.
 
 3. Vuelve a la rama `feature-mensaje-bienvenida` y revisa el archivo otra vez:
@@ -148,8 +148,8 @@ La rama actual debería aparecer marcada con un `*`.
 ### Checkpoint 3 – Evidencia
 
 - Crea el archivo `cp3-comparacion-ramas.md` con:
-  - Una breve explicación de qué diferencias ves en `app.txt` entre `main` y `feature-mensaje-bienvenida`.  
-  - Una frase que resuma con tus palabras qué hace `git checkout` al cambiar de rama. [web:48][web:49]  
+  - Una breve explicación de qué diferencias ves en `app.txt` entre `main` y `feature-mensaje-bienvenida`.
+  - Una frase que resuma con tus palabras qué hace `git checkout` al cambiar de rama.
 
 ---
 
@@ -191,8 +191,8 @@ Vas a practicar la idea de **múltiples líneas de trabajo**.
 ### Checkpoint 4 – Evidencia
 
 - Crea `cp4-multiples-ramas.txt` con:
-  - La salida de `git branch`.  
-  - La salida de `git log --oneline` estando en `feature-licencia`.  
+  - La salida de `git branch`.
+  - La salida de `git log --oneline` estando en `feature-licencia`.
 - Indica cuántas ramas tienes y para qué sirve cada una (`main`, `feature-mensaje-bienvenida`, `feature-licencia`).
 
 ---
@@ -213,13 +213,13 @@ Crea un archivo `reflexion-6-2.md` y responde brevemente:
 
 Al finalizar, tu repositorio de la Actividad 6.2 debe incluir al menos:
 
-- `app.txt`  
-- `LICENSE.txt` (creado en la rama correspondiente)  
-- `cp1-ramas-iniciales.txt`  
-- `cp2-feature-branch.txt`  
-- `cp3-comparacion-ramas.md`  
-- `cp4-multiples-ramas.txt`  
-- `reflexion-6-2.md`  
+- `app.txt`
+- `LICENSE.txt` (creado en la rama correspondiente)
+- `cp1-ramas-iniciales.txt`
+- `cp2-feature-branch.txt`
+- `cp3-comparacion-ramas.md`
+- `cp4-multiples-ramas.txt`
+- `reflexion-6-2.md`
 
 > Nota: Es suficiente con que estos archivos estén presentes en la **rama que el profesorado indique para la entrega** (por defecto, suele ser `main` o una rama específica).
 
@@ -228,7 +228,7 @@ Al finalizar, tu repositorio de la Actividad 6.2 debe incluir al menos:
 ## 🏁 Evaluación sugerida
 
 - 4 pts – Uso correcto de comandos de ramas (`git branch`, `git checkout`, `git checkout -b`).
-- 3 pts – Evidencias claras en los archivos de checkpoints (contenidos según rama, salidas de comandos).  
+- 3 pts – Evidencias claras en los archivos de checkpoints (contenidos según rama, salidas de comandos).
 - 3 pts – Claridad y profundidad en `reflexion-6-2.md`.
 
 **Puntuación máxima: 10 puntos.**

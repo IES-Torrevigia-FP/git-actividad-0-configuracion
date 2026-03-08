@@ -5,7 +5,7 @@ Aquí tienes la **Actividad 6.10** sobre `git log` y `git reflog`, centrada en l
 ```markdown
 # 🔍 Actividad 6.10 – `git log` y `git reflog`: leer y recuperar historia
 
-> Has aprendido a crear, modificar y deshacer commits.  
+> Has aprendido a crear, modificar y deshacer commits.
 > En esta actividad vas a **aprender a inspeccionar el historial con `git log`** y a usar **`git reflog` como red de seguridad para recuperar estados “perdidos”**.
 
 ---
@@ -14,8 +14,8 @@ Aquí tienes la **Actividad 6.10** sobre `git log` y `git reflog`, centrada en l
 
 Al finalizar esta actividad serás capaz de:
 
-- Usar `git log` con distintas opciones (`--oneline`, `--graph`, `--decorate`, filtros). 
-- Crear un alias simple para ver un log “bonito”. 
+- Usar `git log` con distintas opciones (`--oneline`, `--graph`, `--decorate`, filtros).
+- Crear un alias simple para ver un log “bonito”.
 - Explicar qué es `git reflog` y cuándo usarlo.
 - Recuperar un commit o rama “perdida” usando `git reflog`.
 
@@ -28,7 +28,7 @@ Al finalizar esta actividad serás capaz de:
 
 Por eso:
 
-- `git log` se usa para **navegar el historial normal**.  
+- `git log` se usa para **navegar el historial normal**.
 - `git reflog` se usa para **rescatar commits “perdidos”** (por ejemplo, tras un reset duro o borrar una rama por error).
 
 ---
@@ -124,7 +124,7 @@ Ahora tienes varios commits y ramas, suficiente para ver `git log --graph`.
    - `--oneline` condensa cada commit en una línea.
    - `--graph` dibuja la estructura de ramas.
    - `--decorate` muestra nombres de ramas/etiquetas.
-   - `--all` incluye todas las ramas. 
+   - `--all` incluye todas las ramas.
 
 2. Filtra commits por autor (sustituye por tu nombre si hace falta):
 
@@ -157,8 +157,8 @@ Ahora tienes varios commits y ramas, suficiente para ver `git log --graph`.
 ### Checkpoint 2 – Evidencia
 
 - Crea `cp2-log-y-alias.txt` con:
-  - Algunas salidas de `git log` que hayas probado (`--oneline`, `--graph`, filtros).  
-  - El contenido de tu alias (`git config --global alias.lg`).  
+  - Algunas salidas de `git log` que hayas probado (`--oneline`, `--graph`, filtros).
+  - El contenido de tu alias (`git config --global alias.lg`).
   - Una frase explicando cuál de las vistas de log te resulta más útil y por qué.
 
 ---
@@ -180,7 +180,7 @@ Ahora tienes varios commits y ramas, suficiente para ver `git log --graph`.
 ### Checkpoint 3 – Evidencia
 
 - Crea `cp3-reflog-inicial.txt` con:
-  - Algunas líneas representativas de `git reflog`.  
+  - Algunas líneas representativas de `git reflog`.
   - Una explicación breve de qué diferencia hay entre `git log` y `git reflog`.
 
 ---
@@ -189,7 +189,7 @@ Ahora tienes varios commits y ramas, suficiente para ver `git log --graph`.
 
 ### Reto 4.1 – Borrar una rama y simular un “susto”
 
-1. Asegúrate de que `feature-b` tiene al menos un commit exclusivo (ya lo tiene).  
+1. Asegúrate de que `feature-b` tiene al menos un commit exclusivo (ya lo tiene).
 
 2. Desde `main`, borra la rama `feature-b`:
 
@@ -197,7 +197,7 @@ Ahora tienes varios commits y ramas, suficiente para ver `git log --graph`.
    git branch -D feature-b
    ```
 
-   (la `-D` fuerza el borrado).  
+   (la `-D` fuerza el borrado).
 
 3. Ejecuta:
 
@@ -233,7 +233,7 @@ Aunque la rama se ha borrado, los commits siguen en la base de datos de Git hast
    git branch feature-b-recuperada HEAD@{n}
    ```
 
-  
+
 
 4. Comprueba:
 
@@ -245,8 +245,8 @@ Aunque la rama se ha borrado, los commits siguen en la base de datos de Git hast
 ### Checkpoint 4 – Evidencia
 
 - Crea `cp4-recuperar-rama.txt` con:
-  - El fragmento de `git reflog` que usaste para localizar el commit.  
-  - Los comandos para recrear la rama (`git branch feature-b-recuperada ...`).  
+  - El fragmento de `git reflog` que usaste para localizar el commit.
+  - Los comandos para recrear la rama (`git branch feature-b-recuperada ...`).
   - Una explicación de por qué `reflog` es útil cuando borras ramas por error.
 
 ---
@@ -257,7 +257,7 @@ Aunque la rama se ha borrado, los commits siguen en la base de datos de Git hast
 
 > ⚠️ Haz esto solo en este repositorio de práctica.
 
-1. Asegúrate de estar en `main` y de que tienes varios commits.  
+1. Asegúrate de estar en `main` y de que tienes varios commits.
 
 2. Mira el historial:
 
@@ -304,8 +304,8 @@ Aunque la rama se ha borrado, los commits siguen en la base de datos de Git hast
 ### Checkpoint 5 – Evidencia
 
 - Crea `cp5-reflog-reset.txt` con:
-  - El comando de `git reset --hard` que usaste para “perder” commits.  
-  - El fragmento de `git reflog` que te permitió encontrar el estado anterior.  
+  - El comando de `git reset --hard` que usaste para “perder” commits.
+  - El fragmento de `git reflog` que te permitió encontrar el estado anterior.
   - El comando de `git reset --hard ...` que utilizaste para recuperarlo.
 
 ---
@@ -324,13 +324,13 @@ Crea `reflexion-6-10.md` y responde:
 
 Tu repositorio de la Actividad 6.10 debe incluir:
 
-- `historia.md` (versión final).  
-- `cp1-log-basico.txt`  
-- `cp2-log-y-alias.txt`  
-- `cp3-reflog-inicial.txt`  
-- `cp4-recuperar-rama.txt`  
-- `cp5-reflog-reset.txt`  
-- `reflexion-6-10.md`  
+- `historia.md` (versión final).
+- `cp1-log-basico.txt`
+- `cp2-log-y-alias.txt`
+- `cp3-reflog-inicial.txt`
+- `cp4-recuperar-rama.txt`
+- `cp5-reflog-reset.txt`
+- `reflexion-6-10.md`
 
 ---
 

@@ -5,7 +5,7 @@ Aquí tienes la **Actividad 6.9** sobre `git revert`, como contrapunto “seguro
 ```markdown
 # 🔁 Actividad 6.9 – `git revert`: deshacer cambios de forma segura
 
-> En la Actividad 6.8 has visto cómo `git reset` reescribe historia local.  
+> En la Actividad 6.8 has visto cómo `git reset` reescribe historia local.
 > Ahora vas a aprender a usar **`git revert` para deshacer commits de forma segura**, creando nuevos commits que invierten cambios sin borrar el historial.
 
 ---
@@ -97,8 +97,8 @@ Por eso:
 ### Checkpoint 1 – Evidencia
 
 - Crea `cp1-historial-inicial-revert.txt` con:
-  - La salida de `git log --oneline`.  
-  - El contenido actual de `config.txt`.  
+  - La salida de `git log --oneline`.
+  - El contenido actual de `config.txt`.
 
 ---
 
@@ -134,8 +134,8 @@ Tu objetivo: **deshacer solo el cambio “modo=debug”**, sin tocar el resto de
 ### Checkpoint 2 – Evidencia
 
 - Crea `cp2-revert-simple.txt` con:
-  - La salida de `git log --oneline` después del revert.  
-  - El contenido de `config.txt` después del revert.  
+  - La salida de `git log --oneline` después del revert.
+  - El contenido de `config.txt` después del revert.
   - Una frase explicando por qué este método es **seguro** incluso si el historial ya se ha compartido.
 
 ---
@@ -170,7 +170,7 @@ Tu objetivo: **deshacer solo el cambio “modo=debug”**, sin tocar el resto de
 ### Checkpoint 3 – Evidencia
 
 - Crea `cp3-revert-head.txt` con:
-  - La salida de `git log --oneline`.  
+  - La salida de `git log --oneline`.
   - Una explicación de la diferencia entre `git revert HEAD` y `git reset --hard HEAD~1` en un contexto colaborativo.
 
 ---
@@ -224,8 +224,8 @@ Imagina que quieres revertir **dos commits concretos** en un solo commit de reve
 ### Checkpoint 4 – Evidencia
 
 - Crea `cp4-multiples-revert.txt` con:
-  - Los comandos usados con `--no-commit`.  
-  - La salida de `git log --oneline` final.  
+  - Los comandos usados con `--no-commit`.
+  - La salida de `git log --oneline` final.
   - Una explicación de por qué a veces interesa agrupar varios reverts en un solo commit.
 
 ---
@@ -257,7 +257,7 @@ Imagina que quieres revertir **dos commits concretos** en un solo commit de reve
    git status
    ```
 
-5. Abre el archivo en conflicto y resuélvelo eliminando los marcadores (`<<<<<<<`, `=======`, `>>>>>>>`) y dejando una versión coherente.  
+5. Abre el archivo en conflicto y resuélvelo eliminando los marcadores (`<<<<<<<`, `=======`, `>>>>>>>`) y dejando una versión coherente.
 
 6. Marca como resuelto y termina el revert:
 
@@ -269,7 +269,7 @@ Imagina que quieres revertir **dos commits concretos** en un solo commit de reve
 ### Checkpoint 5 – Evidencia
 
 - Crea `cp5-conflicto-revert.txt` con:
-  - La salida de `git status` durante el conflicto.  
+  - La salida de `git status` durante el conflicto.
   - Una breve descripción de cómo lo has resuelto.
 
 ---
@@ -288,13 +288,13 @@ Crea `reflexion-6-9.md` y responde:
 
 Tu repositorio de la Actividad 6.9 debe incluir:
 
-- `config.txt` (versión final).  
-- `cp1-historial-inicial-revert.txt`  
-- `cp2-revert-simple.txt`  
-- `cp3-revert-head.txt`  
-- `cp4-multiples-revert.txt`  
-- `cp5-conflicto-revert.txt`  
-- `reflexion-6-9.md`  
+- `config.txt` (versión final).
+- `cp1-historial-inicial-revert.txt`
+- `cp2-revert-simple.txt`
+- `cp3-revert-head.txt`
+- `cp4-multiples-revert.txt`
+- `cp5-conflicto-revert.txt`
+- `reflexion-6-9.md`
 
 ---
 

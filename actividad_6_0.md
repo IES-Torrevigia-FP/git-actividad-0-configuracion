@@ -1,14 +1,14 @@
 # 🧭 Actividad 6.0 – Configura tu entorno Git
 
-> Actividad inicial de Git para GitHub Classroom. 
+> Actividad inicial de Git para GitHub Classroom.
 > Objetivo: dejar tu **usuario de Git** correctamente configurado y listo para usar en futuras actividades.
 
 ---
 
 ## 📌 Información de la tarea (para el alumnado)
 
-- **Tipo de actividad:** Individual  
-- **Entrega:** Mediante repositorio de GitHub Classroom (este repositorio)  
+- **Tipo de actividad:** Individual
+- **Entrega:** Mediante repositorio de GitHub Classroom (este repositorio)
 - **Requisitos para completar la tarea:**
   - Configurar tu identidad en Git.
   - Ajustar opciones básicas (rama `main`, saltos de línea, editor, colores, alias).
@@ -65,8 +65,8 @@ git config --global user.email "tucorreo@example.com"
    ```bash
    git config --global --list
    ```
-2. Copia el resultado en un archivo llamado:  
-   `config-git-global.txt`  
+2. Copia el resultado en un archivo llamado:
+   `config-git-global.txt`
 3. Añádelo y súbelo a **este repositorio**.
 
 ---
@@ -118,7 +118,7 @@ Vas a personalizar cómo se comporta Git en todos tus proyectos.
    - `color.ui`
 3. En el archivo `config-git-global.txt`, añade al final una breve explicación (1–2 líneas) de qué hace **cada uno** de esos parámetros.
 
-> Ejemplo de explicación:  
+> Ejemplo de explicación:
 > `init.defaultBranch=main → Hace que la rama inicial de un nuevo repositorio se llame main en lugar de master`.
 
 ---
@@ -150,7 +150,7 @@ git st
    ```bash
    git config --global --list
    ```
-2. Asegúrate de que aparecen los alias (`alias.st`, `alias.co`, etc.).  
+2. Asegúrate de que aparecen los alias (`alias.st`, `alias.co`, etc.).
 3. En el archivo `config-git-global.txt`, añade una breve explicación de **al menos dos alias** indicando por qué te parecen útiles.
 
 ---
@@ -174,7 +174,7 @@ Comprueba que la rama que aparece se llama `main`.
 
 ### ✅ Checkpoint 4 – Evidencia en el repositorio
 
-1. En el repositorio de Classroom (este), crea un archivo llamado:  
+1. En el repositorio de Classroom (este), crea un archivo llamado:
    `reflexion-repo.md`
 2. Escribe (en 3–5 líneas):
    - Qué has hecho en este paso.
@@ -198,10 +198,10 @@ Crea (o edita) el archivo `reflexion-repo.md` y añade:
 
 Al finalizar la actividad, este repositorio **debe incluir** al menos:
 
-- `config-git-global.txt`  
+- `config-git-global.txt`
   - Salida de `git config --global --list`
   - Explicaciones de los parámetros indicados
-- `reflexion-repo.md`  
+- `reflexion-repo.md`
   - Respuestas a las preguntas de reflexión
 
 > No es necesario subir tu repositorio local de prueba (`mi_primer_repo_git`), solo las evidencias pedidas en este repositorio.
@@ -223,9 +223,9 @@ Al finalizar la actividad, este repositorio **debe incluir** al menos:
 
 ## 🏁 Criterios de evaluación sugeridos
 
-- ✅ 4 pts – Configuración de Git completa y correcta (nombre, email, rama `main`, `core.autocrlf`, editor, colores, alias).  
-- ✅ 3 pts – Archivo `config-git-global.txt` presente y bien documentado.  
-- ✅ 2 pts – Archivo `reflexion-repo.md` presente con respuestas claras y razonadas.  
+- ✅ 4 pts – Configuración de Git completa y correcta (nombre, email, rama `main`, `core.autocrlf`, editor, colores, alias).
+- ✅ 3 pts – Archivo `config-git-global.txt` presente y bien documentado.
+- ✅ 2 pts – Archivo `reflexion-repo.md` presente con respuestas claras y razonadas.
 - ✅ 1 pt – Presentación, orden y claridad de los archivos.
 
 **Puntuación máxima: 10 puntos.**

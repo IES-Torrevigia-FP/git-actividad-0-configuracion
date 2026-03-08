@@ -5,7 +5,7 @@ Aquí tienes la **Actividad 6.8** sobre `git reset`, centrada en deshacer cambio
 ```markdown
 # 🧨 Actividad 6.8 – `git reset`: deshacer cambios y reescribir historia local
 
-> En actividades anteriores has aprendido a avanzar en el historial (`commit`, `merge`, `rebase`).  
+> En actividades anteriores has aprendido a avanzar en el historial (`commit`, `merge`, `rebase`).
 > Ahora vas a aprender a **retroceder** con seguridad usando `git reset`, diferenciando `--soft`, `--mixed` y `--hard`.
 
 ---
@@ -25,17 +25,17 @@ Al finalizar esta actividad serás capaz de:
 
 Recuerda los tres “espacios” de Git:
 
-- **HEAD / historial de commits**: lo que ya está confirmado.  
-- **Staging area (index)**: cambios preparados para el próximo commit.  
+- **HEAD / historial de commits**: lo que ya está confirmado.
+- **Staging area (index)**: cambios preparados para el próximo commit.
 - **Working directory**: archivos tal como están ahora en tu disco.
 
 `git reset` mueve la referencia `HEAD` a otro commit y puede afectar también a staging y working directory, según el modo:
 
-| Modo              | HEAD | Staging (index)         | Working directory            |
+| Modo | HEAD | Staging (index) | Working directory |
 |-------------------|------|-------------------------|------------------------------|
-| `--soft`          | Mueve| Conserva cambios staged | Conserva archivos tal cual   |
+| `--soft` | Mueve| Conserva cambios staged | Conserva archivos tal cual |
 | `--mixed` (por defecto) | Mueve| Deshace staging (pasa a unstaged) | Conserva archivos tal cual |
-| `--hard`          | Mueve| Resetea index           | Resetea archivos (pierdes cambios) |
+| `--hard` | Mueve| Resetea index | Resetea archivos (pierdes cambios) |
 
 ---
 
@@ -103,7 +103,7 @@ Recuerda los tres “espacios” de Git:
 
 ### Checkpoint 1 – Evidencia
 
-- Crea `cp1-historial-inicial.txt` con la salida de `git log --oneline`.  
+- Crea `cp1-historial-inicial.txt` con la salida de `git log --oneline`.
 
 ---
 
@@ -144,8 +144,8 @@ Imagínate que el último commit (`Paso 4`) debería separarse o rehacerse.
 ### Checkpoint 2 – Evidencia
 
 - Crea `cp2-soft-reset.txt` con:
-  - La salida de `git status` inmediatamente después de `git reset --soft HEAD~1`.  
-  - La salida de `git log --oneline` después del nuevo commit.  
+  - La salida de `git status` inmediatamente después de `git reset --soft HEAD~1`.
+  - La salida de `git log --oneline` después del nuevo commit.
   - Una frase explicando qué ha hecho exactamente `--soft` (qué se ha tocado y qué no).
 
 ---
@@ -156,7 +156,7 @@ Imagínate que el último commit (`Paso 4`) debería separarse o rehacerse.
 
 Ahora queremos rehacer el commit “fix cosas” y decidir con calma qué va en el siguiente commit.
 
-1. Localiza el hash del commit anterior a “fix cosas” en `git log --oneline`.  
+1. Localiza el hash del commit anterior a “fix cosas” en `git log --oneline`.
    Por ejemplo, si el historial es:
 
    ```text
@@ -172,7 +172,7 @@ Ahora queremos rehacer el commit “fix cosas” y decidir con calma qué va en 
    git reset HEAD~2
    ```
 
-   (ajusta el número según tu historial real; el objetivo es dejar fuera “fix cosas” y el commit posterior)  
+   (ajusta el número según tu historial real; el objetivo es dejar fuera “fix cosas” y el commit posterior)
 
    Sin especificar modo, `git reset` usa `--mixed` por defecto.
 
@@ -194,8 +194,8 @@ Ahora queremos rehacer el commit “fix cosas” y decidir con calma qué va en 
 ### Checkpoint 3 – Evidencia
 
 - Crea `cp3-mixed-reset.txt` con:
-  - Explicación breve de qué partes del historial han desaparecido temporalmente.  
-  - Salida de `git status` justo después de `git reset HEAD~...`.  
+  - Explicación breve de qué partes del historial han desaparecido temporalmente.
+  - Salida de `git status` justo después de `git reset HEAD~...`.
   - Una frase comparando `--soft` y `mixed` respecto a staging y working directory.
 ---
 
@@ -247,8 +247,8 @@ Ahora queremos rehacer el commit “fix cosas” y decidir con calma qué va en 
 ### Checkpoint 4 – Evidencia
 
 - Crea `cp4-hard-reset.txt` con:
-  - Una explicación de qué ha ocurrido con los cambios staged y unstaged tras `--hard`.  
-  - El contenido actual de `progreso.txt`.  
+  - Una explicación de qué ha ocurrido con los cambios staged y unstaged tras `--hard`.
+  - El contenido actual de `progreso.txt`.
   - Una frase indicando por qué `git reset --hard` se considera “opción nuclear”.
 
 ---
@@ -287,7 +287,7 @@ Ahora queremos rehacer el commit “fix cosas” y decidir con calma qué va en 
 ### Checkpoint 5 – Evidencia
 
 - Crea `cp5-reset-head.txt` con:
-  - Salida de `git status` antes y después de `git reset HEAD progreso.txt`.  
+  - Salida de `git status` antes y después de `git reset HEAD progreso.txt`.
   - Una explicación de cuándo te resulta útil “deshacer el add” sin perder cambios.
 
 ---
@@ -297,13 +297,13 @@ Ahora queremos rehacer el commit “fix cosas” y decidir con calma qué va en 
 Crea `reflexion-6-8.md` y responde:
 
 1. Explica con tus palabras las diferencias entre:
-   - `git reset --soft`  
-   - `git reset` (mixed)  
+   - `git reset --soft`
+   - `git reset` (mixed)
    - `git reset --hard`
 2. ¿Por qué `git reset` se suele usar **solo en local** y antes de compartir cambios, mientras que `git revert` es más seguro en ramas compartidas?
 3. Describe una situación real en la que usarías:
-   - `--soft`  
-   - `mixed`  
+   - `--soft`
+   - `mixed`
    - `--hard` (en un entorno controlado).
 
 ---
@@ -312,20 +312,20 @@ Crea `reflexion-6-8.md` y responde:
 
 Tu repositorio de la Actividad 6.8 debe incluir:
 
-- `progreso.txt` (versión final).  
-- `cp1-historial-inicial.txt`  
-- `cp2-soft-reset.txt`  
-- `cp3-mixed-reset.txt`  
-- `cp4-hard-reset.txt`  
-- `cp5-reset-head.txt`  
-- `reflexion-6-8.md`  
+- `progreso.txt` (versión final).
+- `cp1-historial-inicial.txt`
+- `cp2-soft-reset.txt`
+- `cp3-mixed-reset.txt`
+- `cp4-hard-reset.txt`
+- `cp5-reset-head.txt`
+- `reflexion-6-8.md`
 
 ---
 
 ## 🏁 Evaluación sugerida
 
-- 4 pts – Uso correcto de `git reset --soft`, `git reset` (mixed) y `git reset --hard`, y de `git reset HEAD`. 
-- 3 pts – Evidencias claras en los archivos de checkpoints.  
+- 4 pts – Uso correcto de `git reset --soft`, `git reset` (mixed) y `git reset --hard`, y de `git reset HEAD`.
+- 3 pts – Evidencias claras en los archivos de checkpoints.
 - 3 pts – Calidad de la reflexión en `reflexion-6-8.md` (comprender riesgos y buenas prácticas).
 
 **Puntuación máxima: 10 puntos.**

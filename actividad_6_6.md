@@ -5,7 +5,7 @@ Aquí tienes la **Actividad 6.6** centrada en `git cherry-pick`, enfocada a sele
 ```markdown
 # 🍒 Actividad 6.6 – `git cherry-pick`: seleccionar commits concretos
 
-> En las actividades anteriores has trabajado con ramas, merge y rebase.  
+> En las actividades anteriores has trabajado con ramas, merge y rebase.
 > Ahora vas a aprender a usar **`git cherry-pick` para aplicar commits concretos de una rama en otra, sin mezclar todo el historial**.
 
 ---
@@ -94,8 +94,8 @@ Ahora `develop` tiene varios commits, incluido uno de **hotfix** que te interesa
 ### Checkpoint 1 – Evidencia
 
 - Crea `cp1-historial-develop.txt` con:
-  - La salida de `git log --oneline --all`.  
-  - Marca (con un comentario en el archivo) cuál es el commit del **HOTFIX** que quieres cherry‑pickear.  
+  - La salida de `git log --oneline --all`.
+  - Marca (con un comentario en el archivo) cuál es el commit del **HOTFIX** que quieres cherry‑pickear.
 
 ---
 
@@ -109,7 +109,7 @@ Ahora `develop` tiene varios commits, incluido uno de **hotfix** que te interesa
    git checkout main
    ```
 
-2. Comprueba el contenido actual de `app.txt` (no debería tener las funcionalidades A y B ni el HOTFIX).  
+2. Comprueba el contenido actual de `app.txt` (no debería tener las funcionalidades A y B ni el HOTFIX).
 
 3. En `develop`, identifica el **hash** del commit HOTFIX (por ejemplo `abc1234`) usando:
 
@@ -137,8 +137,8 @@ Ahora `develop` tiene varios commits, incluido uno de **hotfix** que te interesa
 ### Checkpoint 2 – Evidencia
 
 - Crea `cp2-cherry-pick-simple.txt` con:
-  - La salida de `git log --oneline` en `main`.  
-  - El contenido de `app.txt` en `main` tras el cherry‑pick.  
+  - La salida de `git log --oneline` en `main`.
+  - El contenido de `app.txt` en `main` tras el cherry‑pick.
   - Una frase explicando por qué esto es útil para aplicar hotfixes.
 
 ---
@@ -156,8 +156,8 @@ Supón que tienes una rama `test` donde solo quieres probar la **funcionalidad B
    ```
 
 2. Consulta el log de `develop` para obtener los hashes de:
-   - Commit de **funcionalidad B**.  
-   - Commit de **HOTFIX** (si no lo tienes ya anotado).  
+   - Commit de **funcionalidad B**.
+   - Commit de **HOTFIX** (si no lo tienes ya anotado).
 
    ```bash
    git log --oneline develop
@@ -190,10 +190,10 @@ Supón que tienes una rama `test` donde solo quieres probar la **funcionalidad B
 ### Checkpoint 3 – Evidencia
 
 - Crea `cp3-multiples-commits.txt` con:
-  - La salida de `git log --oneline` en `test`.  
-  - El contenido de `app.txt` en `test`.  
+  - La salida de `git log --oneline` en `test`.
+  - El contenido de `app.txt` en `test`.
   - Una explicación breve de la diferencia entre:
-    - Traer una rama entera con `merge`.  
+    - Traer una rama entera con `merge`.
     - Traer commits concretos con `cherry-pick`.
 
 ---
@@ -214,7 +214,7 @@ Supón que tienes una rama `test` donde solo quieres probar la **funcionalidad B
 2. Vuelve a `main` o `test` (elige una rama que ya tenga el HOTFIX cherry‑pickeado antes):
 
    ```bash
-   git checkout main   # o test
+   git checkout main # o test
    ```
 
 3. Intenta cherry‑pickear el nuevo commit de `develop` que tocaba la misma zona:
@@ -237,8 +237,8 @@ Es probable que Git muestre un **conflicto** porque ambas ramas han tocado la mi
 
 ### Reto 4.2 – Resolver conflicto y continuar
 
-1. Edita `app.txt` para resolver el conflicto dejando un texto coherente (por ejemplo, combinando información de ambas versiones).  
-2. Elimina los marcadores de conflicto.  
+1. Edita `app.txt` para resolver el conflicto dejando un texto coherente (por ejemplo, combinando información de ambas versiones).
+2. Elimina los marcadores de conflicto.
 3. Marca el archivo como resuelto:
 
    ```bash
@@ -269,8 +269,8 @@ Es probable que Git muestre un **conflicto** porque ambas ramas han tocado la mi
 ### Checkpoint 4 – Evidencia
 
 - Crea `cp4-conflicto-cherry-pick.txt` con:
-  - La salida de `git status` durante el conflicto.  
-  - Una descripción de cómo has resuelto el conflicto y si has usado `--continue` o `--abort`. 
+  - La salida de `git status` durante el conflicto.
+  - Una descripción de cómo has resuelto el conflicto y si has usado `--continue` o `--abort`.
 
 ---
 
@@ -290,12 +290,12 @@ Crea `reflexion-6-6.md` y responde:
 
 Tu repositorio de la Actividad 6.6 debe incluir:
 
-- `app.txt` (versión final en la rama que indique el profesorado).  
-- `cp1-historial-develop.txt`  
-- `cp2-cherry-pick-simple.txt`  
-- `cp3-multiples-commits.txt`  
-- `cp4-conflicto-cherry-pick.txt`  
-- `reflexion-6-6.md`  
+- `app.txt` (versión final en la rama que indique el profesorado).
+- `cp1-historial-develop.txt`
+- `cp2-cherry-pick-simple.txt`
+- `cp3-multiples-commits.txt`
+- `cp4-conflicto-cherry-pick.txt`
+- `reflexion-6-6.md`
 
 ---
 
